@@ -65,20 +65,20 @@
 #define	BME_reset  						0xE0
 #define BME_ADDR_W 						0x76 << 1
 #define BME_ADDR_R						(0x76 << 1) | 1
-#define BME_table_length				100
-#define BME_PSAT_H						102500
-#define BME_PSAT_L						80000
-#define BME_LUT_Inc						227.27f		// (BME_PSAT_H-BME_PSAT_L)/(BME_table_length)
-#define BME_P_cntr_max					50
-#define BME_T_cntr_max					2500
+// #define BME_table_length				100
+// #define BME_PSAT_H					102500
+// #define BME_PSAT_L					80000
+// #define BME_LUT_Inc					227.27f		// (BME_PSAT_H-BME_PSAT_L)/(BME_table_length)
+// #define BME_P_cntr_max				50
+// #define BME_T_cntr_max				2500
 
 // Physics defines
-#define BME_PB							101325
-#define BME_TB							288.15f
-#define BME_LB							0.0065f
-#define BME_R							8.31432f
-#define BME_G							9.81584f
-#define BME_M							0.0289644f
+// #define BME_PB						101325
+// #define BME_TB						288.15f
+// #define BME_LB						0.0065f
+// #define BME_R						8.31432f
+// #define BME_G						9.81584f
+// #define BME_M						0.0289644f
 
 
 
